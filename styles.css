@@ -14,7 +14,7 @@ html {
 
 /* main */
 
-main{
+main {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -23,9 +23,10 @@ main{
   background-repeat: no-repeat;
   height: 538px;
   width: 1440;
+  margin-bottom: 2px;
 }
 
-nav{
+nav {
   width: 980px;
   display: grid;
   grid-template-columns: repeat(8, 1fr) 132px;
@@ -36,19 +37,42 @@ nav{
 }
 
 nav span,
-nav div{
+nav div {
   
   width: auto;
   text-align: center;
   padding-top: 5px;
 }
 
-#search-bar{
+#search-bar {
   width: 106px;
   height: 20px;
   border-radius: 20px;
   font-family: FontAwesome;
 }
 
+/* aside */
+
+#first-aside-image {
+  background: url("images/promo_iphone5s.jpg");
+}
+
+#second-aside-image {
+  background: url("images/promo_iphone5c.jpg");
+}
+
+#third-aside-image {
+  background: url("images/promo_30_years.jpg");
+}
+
+#fourth-aside-image {
+  background: url("images/promo_supplier_responsibility.jpg");
+}
+
+aside {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 200px;
+}
 
 /* footer */
