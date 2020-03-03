@@ -12,6 +12,12 @@ html {
   padding: 0;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 /* main */
 
 main {
@@ -22,7 +28,7 @@ main {
   background-image: url("images/background-image.png");
   background-repeat: no-repeat;
   height: 538px;
-  width: 1440;
+  width: 1440px;
   margin-bottom: 2px;
 }
 
@@ -38,7 +44,6 @@ nav {
 
 nav span,
 nav div {
-  
   width: auto;
   text-align: center;
   padding-top: 5px;
@@ -73,6 +78,7 @@ aside {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 200px;
+  width: 1440px;
 }
 
 /* footer */
