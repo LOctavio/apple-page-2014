@@ -14,20 +14,30 @@ html {
 
 /* main */
 
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 70px;
+  background-image: url("images/background-image.png");
+  background-repeat: no-repeat;
+  height: 538px;
+  width: 1440;
+}
 
 nav{
-  width: fit-content;
+  width: 980px;
   display: grid;
-  grid-template-columns: repeat(8, 106px) 132px;
+  grid-template-columns: repeat(8, 1fr) 132px;
   grid-template-rows: 30px;
-  margin: 10px 34.5px;
+  margin: 15px 34.5px;
   border: 1px solid black;
   border-radius: 3px;
 }
 
 nav span,
 nav div{
-  border: 1px solid black;
+  
   width: auto;
   text-align: center;
   padding-top: 5px;
