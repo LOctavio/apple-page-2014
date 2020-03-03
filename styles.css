@@ -21,10 +21,24 @@ nav{
   grid-template-columns: repeat(8, 106px) 132px;
   grid-template-rows: 30px;
   margin: 10px 34.5px;
-  justify-items: center;
-  align-items: center;
   border: 1px solid black;
   border-radius: 3px;
 }
+
+nav span,
+nav div{
+  border: 1px solid black;
+  width: auto;
+  text-align: center;
+  padding-top: 5px;
+}
+
+#search-bar{
+  width: 106px;
+  height: 20px;
+  border-radius: 20px;
+  font-family: FontAwesome;
+}
+
 
 /* footer */
