@@ -56,8 +56,8 @@ nav div{
   border: none;
 }
 
-#apple{
-  background: linear-gradient(#f6f7f7, #d0cfcf 69% 70%,#bfbebe 70% 100%);
+#apple {
+  background: linear-gradient(#f6f7f7, #d0cfcf 69% 70%, #bfbebe 70% 100%);
   -webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
@@ -109,9 +109,44 @@ nav div{
 
 aside {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4, minmax(256px, 360px));
   grid-template-rows: 200px;
-  width: 1440px;
+  max-width: 1440px;
+  min-width: 1024px;
 }
 
 /* footer */
+
+footer>div {
+  padding-top: 20px;
+  width: 980px;
+  height: 90px;
+  color: #6e6e6e;
+  font-size: 12px;
+}
+
+#footer-right-text {
+  float: right;
+  display: flex;
+  width: fit-content;
+}
+
+#footer-right-text>hr {
+  margin: 0 3px;
+}
+
+.blue-text {
+  color: #0088cc;
+}
+
+#copyright {
+  padding-top: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+a:hover {
+  text-decoration: underline;
+}
