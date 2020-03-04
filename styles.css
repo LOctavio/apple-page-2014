@@ -75,6 +75,7 @@ nav div {
   width: 106px;
   height: 20px;
   border-radius: 20px;
+  background: inherit;
 }
 
 #first-paragraph {
