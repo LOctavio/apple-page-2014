@@ -48,7 +48,7 @@ nav {
   color: #fff;
 }
 
-nav span,
+nav a,
 nav div {
   width: auto;
   text-align: center;
@@ -153,4 +153,8 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+nav a:hover{
+  text-decoration: none;
 }
