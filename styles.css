@@ -3,9 +3,12 @@
 html {
   box-sizing: border-box;
 }
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
+
 /* margin and padding reset */
 * {
   margin: 0;
@@ -41,7 +44,7 @@ nav {
   border: 1px solid #7b7b7b;
   border-radius: 3px;
   background: linear-gradient(#898989, #707070 49% 50%, #5e5e5e 50% 51%, #787878);
-  color: #ffffff;
+  color: #fff;
 }
 
 nav span,
@@ -59,14 +62,13 @@ nav div {
 #apple {
   background: linear-gradient(#f6f7f7, #d0cfcf 69% 70%, #bfbebe 70% 100%);
   -webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
 }
 
 #search-bar {
   width: 106px;
   height: 20px;
   border-radius: 20px;
-  font-family: FontAwesome;
 }
 
 #first-paragraph {
@@ -86,7 +88,7 @@ nav div {
 }
 
 .main-text {
-  color: #ffffff;
+  color: #fff;
 }
 
 /* aside */
@@ -117,7 +119,7 @@ aside {
 
 /* footer */
 
-footer>div {
+footer > div {
   padding-top: 20px;
   width: 980px;
   height: 90px;
@@ -131,12 +133,12 @@ footer>div {
   width: fit-content;
 }
 
-#footer-right-text>hr {
+#footer-right-text > hr {
   margin: 0 3px;
 }
 
 .blue-text {
-  color: #0088cc;
+  color: #08c;
 }
 
 #copyright {
@@ -145,8 +147,9 @@ footer>div {
 
 a {
   text-decoration: none;
-  color: #ffffff;
+  color: #fff;
 }
+
 a:hover {
   text-decoration: underline;
 }
