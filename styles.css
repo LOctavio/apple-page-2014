@@ -1,0 +1,164 @@
+/* box sizing reset */
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/* margin and padding reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* main */
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 70px;
+  background-image: url("images/background-image.png");
+  background-repeat: no-repeat;
+  height: 538px;
+  width: 1440px;
+  margin-bottom: 2px;
+}
+
+nav {
+  width: 980px;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr) 132px;
+  grid-template-rows: 36px;
+  margin: 15px 34.5px;
+  border: 1px solid #7b7b7b;
+  border-radius: 3px;
+  background: linear-gradient(#898989, #707070 49% 50%, #5e5e5e 50% 51%, #787878);
+  color: #fff;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+nav a,
+nav div {
+  width: auto;
+  text-align: center;
+  padding-top: 8px;
+  border-right: 1px solid #5c5c5c;
+}
+
+nav div {
+  border: none;
+}
+
+#apple {
+  background: linear-gradient(#f6f7f7, #d0cfcf 69% 70%, #bfbebe 70% 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#search-bar {
+  width: 106px;
+  height: 20px;
+  border-radius: 20px;
+  background: inherit;
+}
+
+#first-paragraph {
+  font-size: 70px;
+  margin-top: 30px;
+}
+
+#second-paragraph {
+  font-size: 30px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+#third-paragraph {
+  font-size: 27px;
+  margin-top: 40px;
+}
+
+#third-paragraph a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.main-text {
+  color: #fff;
+}
+
+/* aside */
+
+#first-aside-image {
+  background: url("images/promo_iphone5s.jpg");
+}
+
+#second-aside-image {
+  background: url("images/promo_iphone5c.jpg");
+}
+
+#third-aside-image {
+  background: url("images/promo_30_years.jpg");
+}
+
+#fourth-aside-image {
+  background: url("images/promo_supplier_responsibility.jpg");
+}
+
+aside {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(256px, 360px));
+  grid-template-rows: 200px;
+  max-width: 1440px;
+  min-width: 1024px;
+}
+
+/* footer */
+
+footer > div {
+  padding-top: 20px;
+  width: 980px;
+  height: 90px;
+  color: #6e6e6e;
+  font-size: 12px;
+}
+
+#footer-right-text {
+  float: right;
+  display: flex;
+  width: fit-content;
+}
+
+#footer-right-text > hr {
+  margin: 0 3px;
+}
+
+#copyright {
+  padding-top: 20px;
+}
+
+.link-style {
+  text-decoration: none;
+  color: #08c;
+}
+
+.link-style:hover,
+#third-paragraph a:hover {
+  text-decoration: underline;
+}
