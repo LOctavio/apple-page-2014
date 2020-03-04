@@ -138,10 +138,6 @@ footer > div {
   margin: 0 3px;
 }
 
-.blue-text {
-  color: #08c;
-}
-
 #copyright {
   padding-top: 20px;
 }
@@ -151,10 +147,13 @@ a {
   color: #fff;
 }
 
-a:hover {
+.link-style {
+  text-decoration: none;
+  
+  color: #08c;
+}
+
+.link-style:hover {
   text-decoration: underline;
 }
 
-nav a:hover{
-  text-decoration: none;
-}
