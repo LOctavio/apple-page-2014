@@ -36,17 +36,30 @@ nav {
   width: 980px;
   display: grid;
   grid-template-columns: repeat(8, 1fr) 132px;
-  grid-template-rows: 30px;
+  grid-template-rows: 36px;
   margin: 15px 34.5px;
-  border: 1px solid black;
+  border: 1px solid #7b7b7b;
   border-radius: 3px;
+  background: linear-gradient(#898989, #707070 49% 50%, #5e5e5e 50% 51%, #787878);
+  color: #ffffff;
 }
 
 nav span,
 nav div {
   width: auto;
   text-align: center;
-  padding-top: 5px;
+  padding-top: 8px;
+  border-right: 1px solid #5c5c5c;
+}
+
+nav div{
+  border: none;
+}
+
+#apple{
+  background: linear-gradient(#f6f7f7, #d0cfcf 69% 70%,#bfbebe 70% 100%);
+  -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 #search-bar {
@@ -54,6 +67,11 @@ nav div {
   height: 20px;
   border-radius: 20px;
   font-family: FontAwesome;
+  background: linear-gradient();
+}
+
+::placeholder {
+  
 }
 
 /* aside */
