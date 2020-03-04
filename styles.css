@@ -149,11 +149,9 @@ a {
 
 .link-style {
   text-decoration: none;
-  
   color: #08c;
 }
 
 .link-style:hover {
   text-decoration: underline;
 }
-
