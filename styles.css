@@ -67,11 +67,26 @@ nav div{
   height: 20px;
   border-radius: 20px;
   font-family: FontAwesome;
-  background: linear-gradient();
 }
 
-::placeholder {
-  
+#first-paragraph {
+  font-size: 70px;
+  margin-top: 30px;
+}
+
+#second-paragraph {
+  font-size: 30px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+#third-paragraph {
+  font-size: 27px;
+  margin-top: 40px;
+}
+
+.main-text {
+  color: #ffffff;
 }
 
 /* aside */
