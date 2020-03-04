@@ -88,7 +88,7 @@ nav div {
   margin-top: 40px;
 }
 
-#third-paragraph a{
+#third-paragraph a {
   text-decoration: none;
   color: #fff;
 }
@@ -147,7 +147,7 @@ footer > div {
   padding-top: 20px;
 }
 
-nav a{
+nav a {
   text-decoration: none;
   color: #fff;
 }
@@ -158,6 +158,6 @@ nav a{
 }
 
 .link-style:hover,
-#third-paragraph a:hover{
+#third-paragraph a:hover {
   text-decoration: underline;
 }
